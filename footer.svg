@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-label="Let's build something that lasts">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF">
+        <animate attributeName="stop-color" values="#00C6FF;#0078D7;#004e94;#0078D7;#00C6FF" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#004e94">
+        <animate attributeName="stop-color" values="#004e94;#0078D7;#00C6FF;#0078D7;#004e94" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="fshine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fround"><rect x="0" y="0" width="1200" height="150" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#fround)">
+    <rect width="1200" height="150" fill="url(#fbg)"/>
+
+    <!-- flowing wave -->
+    <path fill="#ffffff" opacity="0.10" d="M-200 60 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 V0 H-200 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- shine sweep -->
+    <rect x="-320" y="0" width="240" height="150" fill="url(#fshine)" transform="skewX(-18)">
+      <animate attributeName="x" values="-320;1320" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="600" y="88" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" letter-spacing="0.5">Let's build something that lasts.</text>
+  </g>
+</svg>
