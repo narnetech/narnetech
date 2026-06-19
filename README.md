@@ -1,7 +1,7 @@
-<!-- ===== ANIMATED HEADER ===== -->
+<!-- ===== ANIMATED HEADER (self-hosted: header.svg must be in this repo) ===== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D7,100:00C6FF&height=210&section=header&text=Kranthi%20Kumar&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Founder%20%26%20Full-Stack%20Developer%20%C2%B7%20NarneTech&descAlignY=58&descSize=18&descAlignX=50" width="100%" alt="header"/>
+<img src="./header.svg" width="100%" alt="Kranthi Kumar"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&duration=3500&pause=900&color=0078D7&center=true&vCenter=true&width=650&lines=I+build+software+that+runs+real+businesses.;From+C%23+backends+to+the+factory+floor.;Industrial+IoT+%C2%B7+AI+Agents+%C2%B7+Full-Stack+Web." alt="typing"/>
 
@@ -84,9 +84,9 @@ These days most of my time goes into **industrial IoT**, **energy intelligence**
 
 <br/>
 
-<!-- ===== ANIMATED FOOTER ===== -->
+<!-- ===== ANIMATED FOOTER (self-hosted: footer.svg must be in this repo) ===== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0078D7&height=140&section=footer&text=Let's%20build%20something%20that%20lasts.&fontSize=18&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%" alt="footer"/>
+<img src="./footer.svg" width="100%" alt="Let's build something that lasts"/>
 
 </div>
