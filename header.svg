@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Kranthi Kumar - Founder and Full-Stack Developer at NarneTech">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004e94">
+        <animate attributeName="stop-color" values="#004e94;#0078D7;#00C6FF;#0078D7;#004e94" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00C6FF">
+        <animate attributeName="stop-color" values="#00C6FF;#0078D7;#004e94;#0078D7;#00C6FF" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="220" fill="url(#bg)"/>
+
+    <!-- flowing wave 1 (slower) -->
+    <path fill="#ffffff" opacity="0.10" d="M-200 180 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 q50 -22 100 0 q50 22 100 0 V220 H-200 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- flowing wave 2 (faster, lower) -->
+    <path fill="#ffffff" opacity="0.07" d="M-200 195 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 q50 -18 100 0 q50 18 100 0 V220 H-200 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- floating circles -->
+    <g fill="#ffffff" opacity="0.08">
+      <circle cx="150" cy="60" r="46"><animate attributeName="cy" values="60;88;60" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="1050" cy="55" r="34"><animate attributeName="cy" values="55;80;55" dur="5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- shine sweep -->
+    <rect x="-320" y="0" width="240" height="220" fill="url(#shine)" transform="skewX(-18)">
+      <animate attributeName="x" values="-320;1320" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- text -->
+    <text x="600" y="100" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Kranthi Kumar</text>
+    <text x="600" y="144" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#eaf6ff" letter-spacing="1.5">Founder &amp; Full-Stack Developer  ·  NarneTech</text>
+  </g>
+</svg>
