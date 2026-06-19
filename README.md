@@ -1,7 +1,7 @@
 <!-- ===== ANIMATED HEADER (single file, no extra uploads needed) ===== -->
 <div align="center">
 
-<img width="100%" src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=40&duration=3000&pause=1000&color=FFFFFF&background=0078D7&center=true&vCenter=true&width=1100&height=130&lines=Kranthi+Kumar;Founder+%26+Full-Stack+Developer;Industrial+IoT+%C2%B7+AI+Agents+%C2%B7+Full-Stack+Web" alt="Kranthi Kumar"/>
+<img width="100%" src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=42&duration=3000&pause=1000&color=0078D7&center=true&vCenter=true&width=1100&height=130&lines=Kranthi+Kumar;Founder+%26+Full-Stack+Developer;Industrial+IoT+%C2%B7+AI+Agents+%C2%B7+Full-Stack+Web" alt="Kranthi Kumar"/>
 
 </div>
 
@@ -85,6 +85,6 @@ These days most of my time goes into **industrial IoT**, **energy intelligence**
 <!-- ===== ANIMATED FOOTER (single file, no extra uploads needed) ===== -->
 <div align="center">
 
-<img width="100%" src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=24&duration=4000&pause=1000&color=FFFFFF&background=0078D7&center=true&vCenter=true&width=1100&height=90&lines=Let%27s+build+something+that+lasts.;Thanks+for+visiting%21+%E2%9A%A1" alt="Let's build something that lasts"/>
+<img width="100%" src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=24&duration=4000&pause=1000&color=0078D7&center=true&vCenter=true&width=1100&height=90&lines=Let%27s+build+something+that+lasts.;Thanks+for+visiting%21+%E2%9A%A1" alt="Let's build something that lasts"/>
 
 </div>
